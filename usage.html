@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<style>
+			 #elem{
+				 position: absolute;
+				 width: 100px;
+				 height: 100px;
+				 background-color: black;
+				 -webkit-user-select: none;
+				 -moz-user-select: none;
+				 -o-user-select: none;
+				 -ms-user-select: none;
+				 -khtml-user-select: none;     
+				 user-select: none;
+				 cursor: default;
+			 }
+		</style>
+		<script type='text/javascript' src='sources/tzdragg.js'></script>
+	<script>
+			win.onload = function(){
+	 			tzdragg.drag('elem');
+	 		}
+	</script>
+	</head>
+	<body>
+		<div id='elem'></div>
+	</body>
+</html>
